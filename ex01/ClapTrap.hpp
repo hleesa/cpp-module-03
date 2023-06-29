@@ -23,7 +23,7 @@ public:
 
 	~ClapTrap();
 
-	virtual void attack(const std::string& target);
+	void attack(const std::string& target);
 
 	void takeDamage(unsigned int amount);
 
